@@ -29,3 +29,21 @@
         
         })
         更简洁 推荐 
+
+
+## 快手的二面
+    深入的工程化
+    code spliting
+
+    - css 代码的分离
+        更好的缓存
+        下载的速度更快
+        MiniCssExtractPlugin
+    - 怎么再优化一下 
+       - css压缩
+       - tree shaking webpack5 默认再production mode 自动   开启
+       注释、console.log()调试， 没有使用的变量或函数 模块中没有用的代码 
+       - code spliting
+         vendor 
+    - 图片怎么优化， webpack如何结合？
+      - 减少请求数

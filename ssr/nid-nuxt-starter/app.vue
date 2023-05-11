@@ -1,12 +1,12 @@
 <template>
     <NuxtLayout>
-        <NuxtPage />
+        <NuxtPage/>
     </NuxtLayout>
 </template>
 
-<script setup lang="ts">
+<script lang="ts" setup>
 // nuxt 内置的hooks 函数
-const { name } = useAppConfig();
+const {name} = useAppConfig();
 console.log(name);
 // 统一设置title的地方
 useHead({

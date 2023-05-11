@@ -15,3 +15,4 @@ const router = useRouter()
 
 <style scoped>
 
+</style>
